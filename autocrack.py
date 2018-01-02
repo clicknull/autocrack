@@ -29,14 +29,14 @@ from queue import Queue, Empty
 ### Path Variables
 # Path in which the wordlists, rules, and masks directories reside; usually the same folder in which the hashcat executable resides.
 # Be sure to include the "/" at the end of the path.
-BASESUPPORTFILESPATH = '/opt/hashstack/server/files/'
+BASESUPPORTFILESPATH = '/opt/crackingfiles/'
 # Path in which the hashcat executable sits; may be the same path as set for BASESUPPORTFILESPATH
 # Be sure to incldue the "/" at the end of the path.
-BASEEXEPATH = '/opt/temp/home/opencl/hashcat/'
+BASEEXEPATH = '/opt/hashcat/'
 # Name of the hashcat executable
 BASECOMMAND = 'hashcat64.bin'
 # Full path to the john executble
-JTRPATH = '/home/ndrier/JohnTheRipper/run/john'
+JTRPATH = '/opt/JohnTheRipper/run/john'
 
 ### Categories of Rules (each of these rules must be present in the 
 ### BASESUPPORTFILESPATH\rules directory, if a rule file is missing it will be skipped)
